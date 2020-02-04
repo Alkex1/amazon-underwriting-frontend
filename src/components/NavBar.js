@@ -8,10 +8,13 @@ class NavBar extends Component {
             <div className="nav-div" >
                 {/* <Link to="/">
                     <button>HomePage</button>
-                </Link>
+                </Link> */}
                 <Link to="/childcare">
                     <button>Childcare</button>
-                </Link> */}
+                </Link>
+                <Link to="/homebasedbusinesses">
+                    <button>Home Based Business</button>
+                </Link>
             </div>
         )
     }
